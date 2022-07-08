@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodistas</title>
+    <link rel="stylesheet" href="/usuario-registrado/pagina de periodista/styles.css">
+    <!-- Bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- Barra de navegacion -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/usuario-registrado/index.html">LOGO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/usuario-registrado/index.html">Administrar Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="logros.html">Logros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="Mis-Noticias.html">Mis noticias</a>
+                    </li>
+
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+
+                <ul class="nav navbar-right">
+                    <div class="dropdown" id="sesion">
+                        <a class="nav-link " href="#" id="userdropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid  fa-circle-user fa-2x"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="userdropdown">
+                            <li><a class="dropdown-item" href="#">Configurar Perfil</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/index.html">Cerrar Sesion</a></li>
+                        </ul>
+                    </div>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Main de la pagina -->
+
+    <!-- Pefil de usuario -->
+    <div class="container perfil">
+        <h1>Mi perfil</h1>
+        <hr>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row cn-slider">
+                    <div class="col-md-8">
+                        <div class="cn-img">
+                            <h2>Usuario</h2>
+                            <p><strong>Descripcion: </strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Consequuntur amet sequi vel, blanditiis libero deserunt dolores architecto nihil
+                                repellendus, natus fugiat tenetur voluptatum tempora reprehenderit similique. Modi
+                                minima corrupti delectus. </p>
+                            <!-- <p><strong>Hobbies: </strong> Read, out with friends, listen to music, draw and learn new
+                                things. </p> -->
+                            <p><strong>Secciones: </strong>
+                                <span class="tags">Tecnologia</span>
+                                <span class="tags">Entretenimiento</span>
+                                <span class="tags">Deportes</span>
+                                <span class="tags">Musica</span>
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="datos">
+                    <div class="col-md-4">
+                        <img src="/usuario-registrado/pagina de periodista/img/perfil.webp" class="img-circle" />
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Administracion de la noticia -->
+
+
+    <div class="container">
+        <div class="administrar">
+
+            <div class="container">
+                <div class="row">
+                    <!-- Una Entrada de Noticia -->
+
+                    <div class="col-md-4">
+                        <div class="row cn-slider">
+                            <div class="col-md-4">
+                                <div class="cn-img">
+                                    <img
+                                        src="/usuario-registrado/pagina de periodista/img/noticia1.webp" />
+                                    <div class="cn-title">
+                                        <a href="">Lorem ipsum dolor sit</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="datos">
+                            <div class="col-md-5">
+                                <div class="d-flex datos">
+
+
+                                    <span><strong>Valoracion:</strong> </span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+
+                                </div>
+                                <div class="d-flex datos">
+                                    <span><strong>Visitas: </strong></span>
+                                    <span><i class="fa-solid fa-eye"></i> 31,000</span>
+                                </div>
+                                <div class="d-flex datos">
+                                    <span><strong>Status: </strong></span>
+                                    <span><i class="fa-solid fa-circle-check veri"></i> Verificado</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <form class="d-flex">
+                            <button type="button" class="btn btn-info ">Editar<i
+                                    class="fa-solid fa-pencil"></i></button>
+                            <button class="btn btn-danger" type="submit">Eliminar<i
+                                    class="fa-solid fa-trash-can"></i></button>
+                        </form>
+                    </div>
+
+
+
+
+                </div>
+                <div class="row">
+                    <!-- Una Entrada de Noticia -->
+
+                    <div class="col-md-4">
+                        <div class="row cn-slider">
+                            <div class="col-md-4">
+                                <div class="cn-img">
+                                    <img
+                                        src="/usuario-registrado/pagina de periodista/img/noticia1.webp" />
+                                    <div class="cn-title">
+                                        <a href="">Lorem ipsum dolor sit</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="datos">
+                            <div class="col-md-5">
+                                <div class="d-flex datos">
+
+
+                                    <span><strong>Valoracion:</strong> </span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-regular fa-star"></i></span>
+                                    <span><i class="fa-regular fa-star"></i></span>
+
+                                </div>
+                                <div class="d-flex datos">
+                                    <span><strong>Visitas: </strong></span>
+                                    <span><i class="fa-solid fa-eye"></i> 17,000</span>
+                                </div>
+                                <div class="d-flex datos">
+                                    <span><strong>Status: </strong></span>
+                                    <span><i class="fa-solid fa-circle-check veri"></i> Verificado</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <form class="d-flex">
+                            <button type="button" class="btn btn-info ">Editar<i
+                                    class="fa-solid fa-pencil"></i></button>
+                            <button class="btn btn-danger" type="submit">Eliminar<i
+                                    class="fa-solid fa-trash-can"></i></button>
+                        </form>
+                    </div>
+
+
+
+
+                </div>
+                <div class="row">
+                    <!-- Una Entrada de Noticia -->
+
+                    <div class="col-md-4">
+                        <div class="row cn-slider">
+                            <div class="col-md-4">
+                                <div class="cn-img">
+                                    <img
+                                        src="/usuario-registrado/pagina de periodista/img/noticia1.webp" />
+                                    <div class="cn-title">
+                                        <a href="">Lorem ipsum dolor sit</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="datos">
+                            <div class="col-md-5">
+                                <div class="d-flex datos">
+
+
+                                    <span><strong>Valoracion:</strong> </span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-regular fa-star"></i></span>
+                                    <span><i class="fa-regular fa-star"></i></span>
+                                    <span><i class="fa-regular fa-star"></i></span>
+                                    <span><i class="fa-regular fa-star"></i></span>
+
+                                </div>
+                                <div class="d-flex datos">
+                                    <span><strong>Visitas: </strong></span>
+                                    <span><i class="fa-solid fa-eye"></i> 60,000</span>
+                                </div>
+                                <div class="d-flex datos">
+                                    <span><strong>Status: </strong></span>
+                                    <span><i class="fa-solid fa-ban"></i> Cancelado</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <form class="d-flex">
+                            <button type="button" class="btn btn-info ">Editar<i
+                                    class="fa-solid fa-pencil"></i></button>
+                            <button class="btn btn-danger" type="submit">Eliminar<i
+                                    class="fa-solid fa-trash-can"></i></button>
+                        </form>
+                    </div>
+
+
+
+
+                </div>
+                <div class="row">
+                    <!-- Una Entrada de Noticia -->
+
+                    <div class="col-md-4">
+                        <div class="row cn-slider">
+                            <div class="col-md-4">
+                                <div class="cn-img">
+                                    <img
+                                        src="/usuario-registrado/pagina de periodista/img/noticia1.webp" />
+                                    <div class="cn-title">
+                                        <a href="">Lorem ipsum dolor sit</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="datos">
+                            <div class="col-md-5">
+                                <div class="d-flex datos">
+
+
+                                    <span><strong>Valoracion:</strong> </span>
+                                    <span><i class="fa-regular fa-star"></i></span>
+                                    <span><i class="fa-regular fa-star"></i></span>
+                                    <span><i class="fa-regular fa-star"></i></span>
+                                    <span><i class="fa-regular fa-star"></i></span>
+                                    <span><i class="fa-regular fa-star"></i></span>
+
+
+                                </div>
+                                <div class="d-flex datos">
+                                    <span><strong>Visitas: </strong></span>
+                                    <span><i class="fa-solid fa-eye"></i> 0</span>
+                                </div>
+                                <div class="d-flex datos">
+                                    <span><strong>Status: </strong></span>
+                                    <span><i class="fa-solid fa-clock"></i> espera</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <form class="d-flex">
+                            <button type="button" class="btn btn-info ">Editar<i
+                                    class="fa-solid fa-pencil"></i></button>
+                            <button class="btn btn-danger" type="submit">Eliminar<i
+                                    class="fa-solid fa-trash-can"></i></button>
+                        </form>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- PIE DE PAGINA -->
+
+
+    <footer class="bg-dark text-center text-white">
+
+        <div class="container p-4 pb-0">
+
+            <section class="mb-4">
+
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="fa fa-twitter"></i>
+                </a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="fa fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="fa fa-instagram"></i>
+                </a>
+
+
+            </section>
+
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-white" href="#">Corridos Tumbados</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+
+
+
+    <!-- Scrip Bootstrap -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+    <!-- Fontawesome -->
+
+    <script src="https://kit.fontawesome.com/f81c20bee4.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

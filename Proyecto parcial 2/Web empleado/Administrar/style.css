@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Font1';
+    src: url(../Fonts/barnie-font/Barnie-Wy2xO.ttf);
+}
+
+@font-face {
+    font-family: 'Font2';
+    src: url(../Fonts/Times/times-new-roman.ttf);
+}
+
+* {
+    font-family: 'Font1';
+}
+
+body {
+    background-color: rgb(248, 249, 250);
+}
+
+nav {
+    background-color: rgb(233, 236, 239);
+}
+
+.parraf p{
+    font-family: 'Font2' !important;
+    text-align: justify;
+}
+
+.center {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.tittles {
+    background-color: rgb(173, 181, 189);
+}
+
+.body {
+    height: 500px;
+}
+
+.art-checking {
+    height: 500px;
+}
+
+.check-list {
+    width: 20%;
+    background-color: rgb(233, 236, 239);
+    height: 100%;
+}
+
+.check-titl {
+    border-right: 1px solid black;
+}
+
+.finish {
+    margin-top: 2%;
+}
+
+.tools {
+    margin-top: 4%;
+    margin-left: 20%;
+}
+
+.form-check {
+    margin-top: 30px;
+    height: 70px;
+}
+
+.box-tools{
+    border: 1px solid black;
+}
+
+.art-img {
+    margin-top: 2%;
+    position: relative;
+    width: 50%;
+}
+
+.img-center {
+    text-align: center;
+}
+
+
+
+
+
